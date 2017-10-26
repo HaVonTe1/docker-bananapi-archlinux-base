@@ -2,7 +2,7 @@
 FROM scratch
 
 # copy in super minimal root filesystem archive
-ADD archlinux_armv7.xz /
+ADD ArchLinuxARM-armv7-latest.tar.xz  /
 
 COPY cleanup-image.sh /
 CMD chmod +x cleanup-image.sh
